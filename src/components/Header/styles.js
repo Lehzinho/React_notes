@@ -46,6 +46,7 @@ export const Profile = styled(Link)`
 export const Logout = styled.button`
   border: none;
   background: none;
+  cursor: pointer;
 
   > svg {
     color: ${({ theme }) => theme.COLORS.GRAY_100};
